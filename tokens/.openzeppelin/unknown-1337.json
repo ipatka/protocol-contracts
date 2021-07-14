@@ -1,5 +1,21 @@
 {
   "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xf25186B5081Ff5cE73482AD761DB0eB0d25abfBF",
+    "txHash": "0x3b967e881b213368b6f53ff11d4af9608e4cf1249e048ca19ad750d5ef663c74"
+  },
+  "proxies": [
+    {
+      "address": "0x8f0483125FCb9aaAEFA9209D8E9d7b9C8B9Fb90F",
+      "txHash": "0x751914703c67fe579b26408aa25d78d7e1822592e548fb6f01394b86832ad8d2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x30753E4A8aad7F8597332E813735Def5dD395028",
+      "txHash": "0x2c14d69aabee6bea1c945f848d130683740b0a345978054fe47bbfe8f486017b",
+      "kind": "transparent"
+    }
+  ],
   "impls": {
     "b73593c19e57083cf41aac8b662d716070ebb91ea2c9d98b275486f18a8a6a90": {
       "address": "0xd955b22f47759d249740F8569f866fF55C0EC37D",
@@ -616,7 +632,7 @@
     },
     "f42741d2a71497204fd8f2bc25465304f69f46c71914840b85216d4f41166e3a": {
       "address": "0x345cA3e014Aaf5dcA488057592ee47305D9B3e10",
-      "txHash": "0xc1c7f68e2533ee56bfc69a56a9c5694d9b0fb05061ed649466f43e24b8925dd4",
+      "txHash": "0xb21ac03bd7a96b901c6a9fd20c5d8db255b712dafcf7b34c112550e13f21b786",
       "layout": {
         "storage": [
           {
@@ -664,13 +680,13 @@
           {
             "contract": "ERC721Upgradeable",
             "label": "_holderTokens",
-            "type": "t_mapping(t_address,t_struct(UintSet)6926_storage)",
+            "type": "t_mapping(t_address,t_struct(UintSet)4693_storage)",
             "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:34"
           },
           {
             "contract": "ERC721Upgradeable",
             "label": "_tokenOwners",
-            "type": "t_struct(UintToAddressMap)6303_storage",
+            "type": "t_struct(UintToAddressMap)4070_storage",
             "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:37"
           },
           {
@@ -719,13 +735,13 @@
             "contract": "ERC721DefaultApproval",
             "label": "defaultApprovals",
             "type": "t_mapping(t_address,t_bool)",
-            "src": "erc-721/ERC721DefaultApproval.sol:8"
+            "src": "../project:/contracts/erc-721/ERC721DefaultApproval.sol:8"
           },
           {
             "contract": "ERC721DefaultApproval",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-721/ERC721DefaultApproval.sol:24"
+            "src": "../project:/contracts/erc-721/ERC721DefaultApproval.sol:24"
           },
           {
             "contract": "ERC721BurnableUpgradeable",
@@ -755,55 +771,55 @@
             "contract": "ERC1271Validator",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-1271/ERC1271Validator.sol:30"
+            "src": "../project:/contracts/erc-1271/ERC1271Validator.sol:30"
           },
           {
             "contract": "Mint721Validator",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-721/Mint721Validator.sol:16"
+            "src": "../project:/contracts/erc-721/Mint721Validator.sol:16"
           },
           {
             "contract": "AbstractRoyalties",
             "label": "royalties",
-            "type": "t_mapping(t_uint256,t_array(t_struct(Part)8195_storage)dyn_storage)",
+            "type": "t_mapping(t_uint256,t_array(t_struct(Part)5962_storage)dyn_storage)",
             "src": "../@rarible/royalties/contracts/impl/AbstractRoyalties.sol:8"
           },
           {
             "contract": "ERC721Lazy",
             "label": "creators",
-            "type": "t_mapping(t_uint256,t_array(t_struct(Part)8195_storage)dyn_storage)",
-            "src": "erc-721/ERC721Lazy.sol:16"
+            "type": "t_mapping(t_uint256,t_array(t_struct(Part)5962_storage)dyn_storage)",
+            "src": "../project:/contracts/erc-721/ERC721Lazy.sol:16"
           },
           {
             "contract": "ERC721Lazy",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-721/ERC721Lazy.sol:78"
+            "src": "../project:/contracts/erc-721/ERC721Lazy.sol:78"
           },
           {
             "contract": "HasContractURI",
             "label": "contractURI",
             "type": "t_string_storage",
-            "src": "HasContractURI.sol:9"
+            "src": "../project:/contracts/HasContractURI.sol:9"
           },
           {
             "contract": "HasContractURI",
             "label": "__gap",
             "type": "t_array(t_uint256)49_storage",
-            "src": "HasContractURI.sol:29"
+            "src": "../project:/contracts/HasContractURI.sol:29"
           },
           {
             "contract": "ERC721Base",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-721/ERC721Base.sol:25"
+            "src": "../project:/contracts/erc-721/ERC721Base.sol:25"
           },
           {
             "contract": "ERC721Rarible",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-721/ERC721Rarible.sol:25"
+            "src": "../project:/contracts/erc-721/ERC721Rarible.sol:25"
           }
         ],
         "types": {
@@ -819,13 +835,13 @@
           "t_array(t_uint256)49_storage": {
             "label": "uint256[49]"
           },
-          "t_mapping(t_uint256,t_array(t_struct(Part)8195_storage)dyn_storage)": {
+          "t_mapping(t_uint256,t_array(t_struct(Part)5962_storage)dyn_storage)": {
             "label": "mapping(uint256 => struct LibPart.Part[])"
           },
-          "t_array(t_struct(Part)8195_storage)dyn_storage": {
+          "t_array(t_struct(Part)5962_storage)dyn_storage": {
             "label": "struct LibPart.Part[]"
           },
-          "t_struct(Part)8195_storage": {
+          "t_struct(Part)5962_storage": {
             "label": "struct LibPart.Part",
             "members": [
               {
@@ -856,19 +872,19 @@
           "t_bool": {
             "label": "bool"
           },
-          "t_mapping(t_address,t_struct(UintSet)6926_storage)": {
+          "t_mapping(t_address,t_struct(UintSet)4693_storage)": {
             "label": "mapping(address => struct EnumerableSetUpgradeable.UintSet)"
           },
-          "t_struct(UintSet)6926_storage": {
+          "t_struct(UintSet)4693_storage": {
             "label": "struct EnumerableSetUpgradeable.UintSet",
             "members": [
               {
                 "label": "_inner",
-                "type": "t_struct(Set)6540_storage"
+                "type": "t_struct(Set)4307_storage"
               }
             ]
           },
-          "t_struct(Set)6540_storage": {
+          "t_struct(Set)4307_storage": {
             "label": "struct EnumerableSetUpgradeable.Set",
             "members": [
               {
@@ -887,21 +903,21 @@
           "t_mapping(t_bytes32,t_uint256)": {
             "label": "mapping(bytes32 => uint256)"
           },
-          "t_struct(UintToAddressMap)6303_storage": {
+          "t_struct(UintToAddressMap)4070_storage": {
             "label": "struct EnumerableMapUpgradeable.UintToAddressMap",
             "members": [
               {
                 "label": "_inner",
-                "type": "t_struct(Map)5985_storage"
+                "type": "t_struct(Map)3752_storage"
               }
             ]
           },
-          "t_struct(Map)5985_storage": {
+          "t_struct(Map)3752_storage": {
             "label": "struct EnumerableMapUpgradeable.Map",
             "members": [
               {
                 "label": "_entries",
-                "type": "t_array(t_struct(MapEntry)5977_storage)dyn_storage"
+                "type": "t_array(t_struct(MapEntry)3744_storage)dyn_storage"
               },
               {
                 "label": "_indexes",
@@ -909,10 +925,10 @@
               }
             ]
           },
-          "t_array(t_struct(MapEntry)5977_storage)dyn_storage": {
+          "t_array(t_struct(MapEntry)3744_storage)dyn_storage": {
             "label": "struct EnumerableMapUpgradeable.MapEntry[]"
           },
-          "t_struct(MapEntry)5977_storage": {
+          "t_struct(MapEntry)3744_storage": {
             "label": "struct EnumerableMapUpgradeable.MapEntry",
             "members": [
               {
@@ -946,9 +962,9 @@
         }
       }
     },
-    "961dc4a6953ad6f1de12b50ee3130c3ca104f320dfafa165c279aca7499cf8db": {
+    "011d4581e59f54cd3bfea643b54a4faa061f1e911916085085f84eca3228deed": {
       "address": "0x2C2B9C9a4a25e24B174f26114e8926a9f2128FE4",
-      "txHash": "0x2a5275a052a7d6dcf2e9afabbc7ab2ed98bd36371dde253336d427b738b00901",
+      "txHash": "0xe3c968b764ee1dd82be72c81bb69ff3118ea79589b0678f45d435b0919363735",
       "layout": {
         "storage": [
           {
@@ -1021,13 +1037,13 @@
             "contract": "ERC1155DefaultApproval",
             "label": "defaultApprovals",
             "type": "t_mapping(t_address,t_bool)",
-            "src": "erc-1155/ERC1155DefaultApproval.sol:8"
+            "src": "../project:/contracts/erc-1155/ERC1155DefaultApproval.sol:8"
           },
           {
             "contract": "ERC1155DefaultApproval",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-1155/ERC1155DefaultApproval.sol:20"
+            "src": "../project:/contracts/erc-1155/ERC1155DefaultApproval.sol:20"
           },
           {
             "contract": "ERC1155BurnableUpgradeable",
@@ -1039,19 +1055,19 @@
             "contract": "ERC1155BaseURI",
             "label": "_tokenURIs",
             "type": "t_mapping(t_uint256,t_string_storage)",
-            "src": "erc-1155/ERC1155BaseURI.sol:12"
+            "src": "../project:/contracts/erc-1155/ERC1155BaseURI.sol:12"
           },
           {
             "contract": "ERC1155BaseURI",
             "label": "_baseURI",
             "type": "t_string_storage",
-            "src": "erc-1155/ERC1155BaseURI.sol:15"
+            "src": "../project:/contracts/erc-1155/ERC1155BaseURI.sol:15"
           },
           {
             "contract": "ERC1155BaseURI",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-1155/ERC1155BaseURI.sol:67"
+            "src": "../project:/contracts/erc-1155/ERC1155BaseURI.sol:67"
           },
           {
             "contract": "EIP712Upgradeable",
@@ -1075,79 +1091,79 @@
             "contract": "ERC1271Validator",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-1271/ERC1271Validator.sol:30"
+            "src": "../project:/contracts/erc-1271/ERC1271Validator.sol:30"
           },
           {
             "contract": "Mint1155Validator",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-1155/Mint1155Validator.sol:16"
+            "src": "../project:/contracts/erc-1155/Mint1155Validator.sol:16"
           },
           {
             "contract": "AbstractRoyalties",
             "label": "royalties",
-            "type": "t_mapping(t_uint256,t_array(t_struct(Part)8195_storage)dyn_storage)",
+            "type": "t_mapping(t_uint256,t_array(t_struct(Part)5962_storage)dyn_storage)",
             "src": "../@rarible/royalties/contracts/impl/AbstractRoyalties.sol:8"
           },
           {
             "contract": "ERC1155Lazy",
             "label": "creators",
-            "type": "t_mapping(t_uint256,t_array(t_struct(Part)8195_storage)dyn_storage)",
-            "src": "erc-1155/ERC1155Lazy.sol:16"
+            "type": "t_mapping(t_uint256,t_array(t_struct(Part)5962_storage)dyn_storage)",
+            "src": "../project:/contracts/erc-1155/ERC1155Lazy.sol:16"
           },
           {
             "contract": "ERC1155Lazy",
             "label": "supply",
             "type": "t_mapping(t_uint256,t_uint256)",
-            "src": "erc-1155/ERC1155Lazy.sol:17"
+            "src": "../project:/contracts/erc-1155/ERC1155Lazy.sol:17"
           },
           {
             "contract": "ERC1155Lazy",
             "label": "minted",
             "type": "t_mapping(t_uint256,t_uint256)",
-            "src": "erc-1155/ERC1155Lazy.sol:18"
+            "src": "../project:/contracts/erc-1155/ERC1155Lazy.sol:18"
           },
           {
             "contract": "ERC1155Lazy",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-1155/ERC1155Lazy.sol:104"
+            "src": "../project:/contracts/erc-1155/ERC1155Lazy.sol:109"
           },
           {
             "contract": "HasContractURI",
             "label": "contractURI",
             "type": "t_string_storage",
-            "src": "HasContractURI.sol:9"
+            "src": "../project:/contracts/HasContractURI.sol:9"
           },
           {
             "contract": "HasContractURI",
             "label": "__gap",
             "type": "t_array(t_uint256)49_storage",
-            "src": "HasContractURI.sol:29"
+            "src": "../project:/contracts/HasContractURI.sol:29"
           },
           {
             "contract": "ERC1155Base",
             "label": "name",
             "type": "t_string_storage",
-            "src": "erc-1155/ERC1155Base.sol:14"
+            "src": "../project:/contracts/erc-1155/ERC1155Base.sol:14"
           },
           {
             "contract": "ERC1155Base",
             "label": "symbol",
             "type": "t_string_storage",
-            "src": "erc-1155/ERC1155Base.sol:15"
+            "src": "../project:/contracts/erc-1155/ERC1155Base.sol:15"
           },
           {
             "contract": "ERC1155Base",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-1155/ERC1155Base.sol:37"
+            "src": "../project:/contracts/erc-1155/ERC1155Base.sol:37"
           },
           {
             "contract": "ERC1155Rarible",
             "label": "__gap",
             "type": "t_array(t_uint256)50_storage",
-            "src": "erc-1155/ERC1155Rarible.sol:25"
+            "src": "../project:/contracts/erc-1155/ERC1155Rarible.sol:25"
           }
         ],
         "types": {
@@ -1163,13 +1179,13 @@
           "t_array(t_uint256)49_storage": {
             "label": "uint256[49]"
           },
-          "t_mapping(t_uint256,t_array(t_struct(Part)8195_storage)dyn_storage)": {
+          "t_mapping(t_uint256,t_array(t_struct(Part)5962_storage)dyn_storage)": {
             "label": "mapping(uint256 => struct LibPart.Part[])"
           },
-          "t_array(t_struct(Part)8195_storage)dyn_storage": {
+          "t_array(t_struct(Part)5962_storage)dyn_storage": {
             "label": "struct LibPart.Part[]"
           },
-          "t_struct(Part)8195_storage": {
+          "t_struct(Part)5962_storage": {
             "label": "struct LibPart.Part",
             "members": [
               {
@@ -1227,21 +1243,5 @@
         }
       }
     }
-  },
-  "proxies": [
-    {
-      "address": "0x8f0483125FCb9aaAEFA9209D8E9d7b9C8B9Fb90F",
-      "kind": "transparent",
-      "txHash": "0xa238b9bcddfd62b2c48d53be3f4e866ceb0fd939079e4377a1636b17e06c8443"
-    },
-    {
-      "address": "0x30753E4A8aad7F8597332E813735Def5dD395028",
-      "kind": "transparent",
-      "txHash": "0xdb666a7975d3cc01673c1fdab9cbf0919acfbd89936455fda493b3eacf17ff00"
-    }
-  ],
-  "admin": {
-    "address": "0xf25186B5081Ff5cE73482AD761DB0eB0d25abfBF",
-    "txHash": "0xbfa247c849263a5edb7deea9765eac060dc277e78abe06b684266acc18e902b8"
   }
 }

@@ -13,7 +13,7 @@ try {
 function createNetwork(name) {
   try {
     var json = require(os.homedir() + "/.ethereum/" + name + ".json");
-    var gasPrice = json.gasPrice != null ? json.gasPrice : 2000000000;
+    var gasPrice = json.gasPrice != null ? json.gasPrice : 2;
 
     return {
       provider: () => createProvider(json.address, json.key, json.url),
